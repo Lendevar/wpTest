@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+
+<style >
+    .mybutton {
+        min-height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 2rem;
+        border-radius: 0.25rem;
+        text-decoration: none;
+        box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+        min-height: 120px;
+        background-image: linear-gradient(140deg, #d9eaa4, #d8ebf2, #9bb298);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        transition: all .5s ease-in-out;
+        font-family: 'Verdana', Ubuntu, Helvetica, Arial, sans-serif;
+    }
+
+    .big-buttons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1rem
+    }
+
+    .btn-first:hover {
+    background-image: url(http://education.almazovcentre.ru/wp-content/themes/almaz-theme/images/studenty4.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    transition: all .5s ease-in-out;
+    }
+</style>
+
+<body>
+  <div class = "big-buttons">
+    <a href = "" class = "mybutton btn-first">ТЕКСТ 1</a>
+    <a href = "" class = "mybutton">АГАГА</a>
+    <a href = "" class = "mybutton">ТРИ</a>
+  </div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
